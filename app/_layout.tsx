@@ -17,7 +17,10 @@ export const unstable_settings = {
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    // SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
+    SFProBold: require("../assets/fonts/SFPro-Display-Bold.ttf"),
+    SFProMedium: require("../assets/fonts/SFPro-Display-Medium.ttf"),
+    SFProRegular: require("../assets/fonts/SFPro-Display-Regular.ttf"),
+    SFProSemibold: require("../assets/fonts/SFPro-Display-Semibold.ttf"),
     ...FontAwesome.font,
   });
 
